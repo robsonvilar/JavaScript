@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex004</title>
+    <style>
+        body {
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        /*
+        Realizando a escrita em um documento html, 
+        printando o tamanho da string, convertendo
+        o texto para maiúsculo e minúsculo.
+        */
+        var nome = "robson";
+        document.write(`Olá ${nome}, seu nome tem ${nome.length} letras.<br>`);
+        document.write(`Maiúsculo: ${nome.toUpperCase()}<br>`);
+        document.write(`Minúsculo: ${nome.toLowerCase()}<br>`);
+
+        /*
+        Fixando o número Float em 2 casas decimais.
+        */
+        var n1 = 1545.5
+        document.write("<br>" + n1);
+        var n1 = n1.toFixed(2);
+        document.write("<br>" + n1);
+        
+        /*
+        Convertendo um número para dinheiro
+        */
+
+        var numero_2 = 1545.00
+        var numero_3 = 1000.00
+        var numero_4 = 2000.00
+
+        numero_2 = numero_2.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'});
+        document.write("<br>" + numero_2);
+
+        numero_3 = numero_3.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'});
+        document.write("<br>" + numero_3);
+
+        numero_4 = numero_4.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'});
+        document.write("<br>" + numero_4);
+
+    </script>
+</body>
+</html>

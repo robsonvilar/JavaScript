@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 06 - Tratamento de dados</title>
+    <style>
+        body {
+            background-color: #808080;
+            color: white;
+            font: normal 12pt Arial;
+        }
+        h1 {
+            color: rgba(211, 176, 19, 0.63);
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <p>Já me livrei da maldição!</p>
+    <script>
+
+        /*
+        Number.parseInt(n);
+        Number.parseFloat(n);
+        Number.toString(n)
+        String(n)
+        ou
+        Number(n);
+        */
+
+        var n1 = window.prompt("Digite um número: ");
+        var n2 = window.prompt("Digite outro número: ");
+
+        var n3 = Number.parseInt(n1) + Number.parseInt(n2);
+
+        window.alert(n3);
+
+        var s = "JavaScript";
+
+        window.alert(`Saida: ${s}`); //template string
+
+        /*
+        - O comando variavel.length me retorna quantas letras tem a string.
+        - variavel.toUpperCase() coloca todos os caracteres da string para maiúsculo.
+        - variavel.toLowerCase() coloca todos os caracteres da string para minúsculo.
+        
+        */
+
+    </script>
+</body>
+</html>
