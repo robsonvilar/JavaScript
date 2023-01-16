@@ -1,0 +1,8 @@
+Operadores aritméticos
+
++  -> soma
+-  -> subtração
+*  -> multiplicação
+/  -> divisão
+%  -> resto da divisão inteira
+** -> exponencial

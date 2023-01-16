@@ -1,0 +1,11 @@
+O que devo fazer após terminar o curso ?
+
+- Recomenda-se fazer o curso e HTML5 e CSS.
+- Expandir os conhecimentos sobre functions.
+- Estudar JavaScript funcional.
+- Estudar orientação a objetos em JavaScript.
+- Estudar modularização em JavaScript.
+- Estudar RegEx em JavaScript
+- Estudar JSON
+- Estudar Ajax
+- Estudar NodeJS

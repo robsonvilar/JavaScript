@@ -1,0 +1,19 @@
+Operadores relacionais, lógicos e ternários
+
+----------- relacionais ------------ 
+> -> maior
+< -> menor
+>= -> maior igual
+<= -> menor igual
+!= -> diferente
+== -> igual
+=== -> igual restrito (verifica se os valores são indênticos)
+!== -> desigual restrito (verifica se os valores são extritamente diferentes)
+ 
+----------- lógicos ----------------
+! -> não
+&& -> e
+|| -> ou
+
+------------- ternário ----------------
+Nunca irei usar, o if ou else é melhor

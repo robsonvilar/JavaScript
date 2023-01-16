@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex005</title>
+    <style>
+        body {
+            background: rgb(82, 82, 168);
+            color: white;
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos DOM!</h1>
+    <p>Aqui vai o resultado!</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
+    <div>Clique em mim</div>
+
+    <p id="texto_01_teste_id">Teste id 01</p>
+
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[0]
+
+        window.document.write("<br> Está escrito assim: " + p1.innerText);
+        
+        p1.style.color = 'orange';
+
+        var p2 = window.document.getElementsByTagName('p')[1]
+
+        window.document.write("<br> Está escrito assim: " + p2.innerText);
+        window.document.write("<br> Está escrito assim: " + p2.innerHTML);
+
+        var variavel_recebe_corpo = window.document.body;
+
+        variavel_recebe_corpo.style.background = 'black';
+
+        var recebe_elemento_id = window.document.getElementById('texto_01_teste_id');
+
+        window.document.write("<br>" + recebe_elemento_id.innerText);
+
+        recebe_elemento_id.style.background = 'green';
+        recebe_elemento_id.innerText = 'outra saida!';
+
+        window.document.getElementById('texto_01_teste_id').innerText = 'Olá outro texto!';
+    </script>
+</body>
+</html>
